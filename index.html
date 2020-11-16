@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Jaguar store</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/468b12a702.js" crossorigin="anonymous"></script> --> 
+</head>
+<body>
+   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+
+
+<nav class="navbar background">    
+<ul class="nav-list">
+<div class="logo"><img src="img/download.png" alt="logo"></div>
+<li><a href="#home"> Home</a></li>
+<li><a href="#Products">All Products</a></li>
+<li><a href="#Shop By Goal">Shop By Goal</a></li>
+<li><a href="#Blog"> Blog</a></li>
+<li><a href="#About us"> About us</a></li>
+<div class="rightNav">
+    <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+
+</div>
+</nav>
+-->
+
+<div class="header">
+<div class="container">
+<div class="navbar">
+<div class="logo">
+      <img src="img/56.png" alt="logo" height="80px">
+</div>
+<nav>
+<ul id="MenuItems">
+   <li class="active"><a href="#home"> Home</a></li>
+   <li><a href="#Products">All Products</a></li>
+
+   <li class="dropdown">
+   <a class="dropdown-toggle" data-toggle="dropdown" href="#Shop By Goal">Shop By Goal
+    <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"> Body Building</a></li>
+   <li><a href="#"> Immunity</a></li>
+     <li><a href="#"> Weight Loss</a></li>
+    <li><a href="#"> Mass Gain</a></li>
+  </ul>
+   </li>
+
+   <li><a href="#Blog"> Blog</a></li>
+   <li><a href="#About us"> About Us</a></li>
+   <li><a href="Login_v11/Loginindex.html"> LogIn</a></li>
+   <li><a href="Login_v13/SignUpindex.html"> SignUp</a></li>
+</ul>
+</nav>
+<img src="img/3187934-200.png" class="menu-icon" onclick="menutoggle()">
+</div>
+
+
+    
+        <div class="row">
+
+            <div class="col-2">
+                <h1>Give your workout<br>a new style</h1>
+                <p>Success isn't always about greatness.It's about consistency.
+                <br>Consistent hard work gains success and Greatness will come.</p>
+                 <a href="#Explore" class="btn">Explore Now </a>
+                </div>
+
+            <div class="col-2" width="100%">
+                 <img src="img/people-2604149_1920.jpg" alt="main pic" width=100%>
+             </div>
+
+        </div>
+
+
+</div>
+</div>
+
+<!--carousal-->
+
+    <h2 class="title"><br>Best Deals</h2>  
+    <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/adult-1850925_1920.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="img/pexels-scott-webb-28080 (1).jpg" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="img/man-1282232_1920 (1).jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+<!--first slider-->
+<!--
+<div class="container-fluid">
+    <div class="site-slider">
+        <div class="slider-one">
+<div>
+    <img src="img/people-2604149_1920.jpg"  class="img-fluid" alt="banner 1">
+</div>
+<div>
+    <img src="img/pexels-scott-webb-28080 (1).jpg" class="img-fluid" alt="banner 2">
+</div>
+<div>
+    <img src="img/man-1282232_1920 (1).jpg" class="img-fluid" alt="banner 3">
+</div>
+<div>
+    <img src="img/adult-1850925_1920.jpg" class="img-fluid" alt="banner 4">
+</div>
+        </div>
+
+      <div class="slider-btn">
+          <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+          <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+    </div> 
+
+    </div>
+</div>
+-->
+
+<!----------Featured Products-------->
+<h2 class="title" id="Explore"><br>Featured Products</h2>
+<div class="categories" >
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+           <!--  <img src="img/41ZYhrwZeSL._SX425_.jpg" > -->
+             <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/jonathan-borba-1339221-unsplash-1000x1000.jpg" alt="Gym shoes" class="thumbnail" id="products" />
+            </div>
+            <div class="col-3">
+                <script>
+                    $(document).ready(function() {
+                        $('img.thumbnail').click(function() {
+                            window.location.href = this.id + '.html';
+                        });
+                    });
+                </script>
+    
+                 <img src="img/download (4).jpg" alt="Gym Supplements" class="thumbnail" id="products" />
+            </div>
+
+
+            <div class="col-3"> 
+                <script>
+                    $(document).ready(function() {
+                        $('img.thumbnail').click(function() {
+                            window.location.href = this.id + '.html';
+                        });
+                    });
+                </script>
+    
+                 <img src="img/fortykg.png" alt="Gym Equipment set" class="thumbnail" id="products" />
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-------------All products------->
+
+    <h2 class="title" id="Products">My Products</h2>
+    <div class="small-container">
+    <div class="row">
+        <div class="col-4" >
+         <!--   <img src="img/product-image-799391154.jpg" alt=""> -->
+
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/product-image-799391154.jpg" alt="Gym shoes" class="thumbnail" id="products" />
+
+             <h4>Gym Shoes</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+             </div>
+             <p>Rs 999.00</p>
+        </div>
+
+
+
+        <div class="col-4">
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/nivia-gym-gloves-500x500.jpg" alt="Gym Gloves" class="thumbnail" id="products" />
+           <!-- <img src="img/nivia-gym-gloves-500x500.jpg" alt="">-->
+             <h4>Gym Gloves</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <p>Rs 200.00</p>
+        </div>
+
+
+        <div class="col-4">
+            
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/61C2ZkMvAlL._SX466_.jpg" alt="Gym Bag" class="thumbnail" id="products" />
+           
+             <h4>Gym Bag</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+             </div>
+             <p>Rs 225.00</p>
+        </div>
+
+
+        <div class="col-4">
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/116-Plus-Smart-Watch-Wristband-Sports-Fitness-Blood-Pressure-Heart-Rate-Call-Message-Reminder-Pedometer-D13.jpg" alt="Fitness Band" class="thumbnail" id="products" />
+            
+             <h4>Smart Watch Fitness Band</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <p>Rs 1349.00</p>
+        </div>
+
+
+        <div class="col-4">
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/optimum-nutrition-gold-standard-100-whey-strawberry-banana-5-lbs-2-27-kg.jpg" alt="Whey protein" class="thumbnail" id="products" />
+           
+           
+             <h4>Whey protein</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <p>Rs 4999.00</p>
+        </div>
+
+
+        <div class="col-4">
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/adjustable-gym-dumbbell-500x500.jpg" alt="Dumbells" class="thumbnail" id="products" />
+          
+             <h4>Dumbells</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+             </div>
+             <p>Rs 2100.00</p>
+        </div>
+
+
+        <div class="col-4">
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/double-d-rod-combo.jpg" alt="Gym Equipment set" class="thumbnail" id="products" />
+           
+             <h4>gym set</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <p>Rs 8999.00</p>
+        </div>
+
+        <div class="col-4">
+            
+            <script>
+                $(document).ready(function() {
+                    $('img.thumbnail').click(function() {
+                        window.location.href = this.id + '.html';
+                    });
+                });
+            </script>
+
+             <img src="img/psychotic-pre-workout-supplements-500x500.jpg" alt="Pre workout" class="thumbnail" id="products" />
+             <h4>pre workout</h4>
+             <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+             </div>
+             <p>Rs 2999.00</p>
+        </div>
+
+    </div>
+</div>
+
+<!---Blog-->
+<h2 class="title" id="Blog">Blog</h2>
+<div class="Blog" >
+    <div class="small-container">
+        <div class="row">
+           <div class="col-2"> 
+            <img src="img/exercise_ANI-1.jpg" class="blog-img">   
+           <img src="img/Benefits-of-Incline-Treadmill-Feature.jpg" class="blog-img">
+        </div> 
+           <div class="col-2">
+           <h2>Today’s Best Fitness Routines: A Roundup of Recent Health Articles</h2>
+            <p>Between annual trends and the health world’s latest innovations, knowing which exercise routines to watch can be tough. At-home fitness equipment sales have increased by 130 percent, and recent health articles are helping fitness-lovers redefine aerobic and anerobic routines alike. Those who typically enjoy cardio have picked up resistance bands—and weightlifters have found themselves on ellipticals.
+
+                The exercise industry has changed a lot, this year, redefining our understanding of everyday health by changing our routines.
+
+                <br>
+                Whether you’re a seasoned …
+                <a href="https://gymjunkies.com/todays-best-fitness-routines-a-roundup-of-recent-health-articles/" padding=30px; class="btn">Click Here </a>
+                <div class="iframe-container"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UBMk30rjy0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </p>
+        </div> 
+
+        </div>
+    </div>
+</div>
+
+<!--Reviews-->
+<h2 class="title"><br>Reviews</h2>
+<div class="Reviews">
+    <div class="small-container">
+    <div class="row">
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>
+            I use this site often, and 99% of the time, they do an excellent job. It has amazing Features, Services and return policies. With the volume of business they do, it is understandable that occasionally problems will arise and overall it is best ecommerce site 
+
+        </p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <img src="img/913833-jennifer-aniston.jpg">
+            <h3>Jennifer</h3>
+    </div>
+
+
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>
+            I absolutely love this site. Its selections, Services, prices, delievery and returns are so easy and customer friendly. I am a disabled veteran with metal rods and screws in my lower back.I only bought Christmas Presents for grandchildren from here.
+        </p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+             </div>
+             <img src="img/buddy+this+one.jpg">
+            <h3>Thomas Natis</h3>
+    </div>
+
+
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>
+            I really love shopping at this site because any time I have ever had a problem their customer service has always been great about fixing the issue. Whether it's damaged merchandise and needing a refund to needing to know about a product.
+
+        </p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+
+             </div>
+             <img src="img/download (2).jpg">
+            <h3>Sean Paul</h3>
+    </div>
+    </div>
+</div>
+
+<!--footer-->
+<h2 class="title">About Us</h2>
+<div class="footer" id="About us">
+    <div class="container">
+        <div class="row">
+        <div class="footer-col-1">
+     <h3>Download Our App</h3>
+     <p>Download App for Android and ios mobile phone</p>
+     <div class="app-logo">
+         <img src="img/download app and play.png">
+         
+     </div>
+        </div>
+
+        <div class="footer-col-2">
+            <img src="img/56.png" >
+            <p>Our purpose is to sustainable Make the Pleasure<br> and Benefits of Fitness Accessible to Many</p>
+               </div>
+               
+               <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Join Affilate</li>
+                </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                    </ul>
+                </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2020</p>
+</div>
+
+</div>
+
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+     MenuItems.style.maxHeight = "0px";
+     function menutoggle(){
+         if(MenuItems.style.maxHeight == "0px")
+         {
+             MenuItems.style.maxHeight = "200px";
+         }
+         else{
+             MenuItems.style.maxHeight= "0px";
+         }
+     }
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./JS/main.js"></script>
+</body> 
+</html>
